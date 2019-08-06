@@ -2,7 +2,9 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 2
+version: 2.1
+orbs:
+  azure-cli: circleci/azure-cli@1.1.0
 jobs:
   build:
     docker:
